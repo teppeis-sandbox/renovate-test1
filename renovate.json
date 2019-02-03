@@ -8,6 +8,13 @@
         "packagePatterns": [
           "*"
         ],
+        "semanticCommitType": "chore"
+      },
+      {
+        "depTypeList": [
+          "dependencies",
+          "peerDependencies"
+        ],
         "semanticCommitType": "fix"
       }
     ]
