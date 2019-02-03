@@ -16,6 +16,15 @@
           "peerDependencies"
         ],
         "semanticCommitType": "fix"
+      },
+      {
+        "groupName": "ESLint and Prettier",
+        "packageNames": [
+          "eslint",
+          "eslint-config-*",
+          "eslint-plugin-*",
+          "prettier"
+        ]
       }
     ]
   }
