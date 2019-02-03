@@ -2,6 +2,12 @@
   "extends": [
     "@teppeis:anytime"
   ],
-  "semanticCommitType": "fix"
-  
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "semanticCommitType": "fix"
+    }
+  ]
 }
