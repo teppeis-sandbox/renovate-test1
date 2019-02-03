@@ -1,27 +1,26 @@
 {
   "name": "renovate-test1",
   "version": "1.0.0",
-  "description": "",
+  "author": "Teppei Sato <teppeis@gmail.com>",
   "main": "index.js",
   "scripts": {
     "test": "echo OK"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/teppeis-sandbox/renovate-test1.git"
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^4.0.1"
   },
-  "keywords": [],
-  "author": "Teppei Sato <teppeis@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/teppeis-sandbox/renovate-test1/issues"
-  },
-  "homepage": "https://github.com/teppeis-sandbox/renovate-test1#readme",
   "devDependencies": {
     "eslint": "^5.10.0",
     "mocha": "^5.0.5"
   },
-  "dependencies": {
-    "eslint-plugin-jsdoc": "^4.0.1"
-  }
+  "homepage": "https://github.com/teppeis-sandbox/renovate-test1#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teppeis-sandbox/renovate-test1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teppeis-sandbox/renovate-test1/issues"
+  },
+  "keywords": [],
+  "license": "MIT"
 }
