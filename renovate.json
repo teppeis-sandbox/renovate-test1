@@ -25,8 +25,8 @@
         ],
         "packagePatterns": [
           "eslint-config-*",
-          "eslint-plugin-*",
-        ],
+          "eslint-plugin-*"
+        ]
       }
     ]
   }
