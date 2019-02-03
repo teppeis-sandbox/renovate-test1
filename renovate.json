@@ -23,6 +23,7 @@
           "eslint",
           "eslint-config-*",
           "eslint-plugin-*",
+          "eslint-plugin-jsdoc",
           "prettier"
         ]
       }
