@@ -1,5 +1,31 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "@teppeis:anytime"
+  ],
+  "npm": {
+    "packageRules": [
+      {
+        "packagePatterns": [
+          "*"
+        ],
+        "semanticCommitType": "chore"
+      },
+      {
+        "depTypeList": [
+          "dependencies",
+          "peerDependencies"
+        ],
+        "semanticCommitType": "fix"
+      },
+      {
+        "groupName": "ESLint and Prettier",
+        "packageNames": [
+          "eslint",
+          "eslint-config-*",
+          "eslint-plugin-*",
+          "prettier"
+        ]
+      }
+    ]
+  }
 }
