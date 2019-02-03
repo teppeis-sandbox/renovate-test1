@@ -24,8 +24,8 @@
           "prettier"
         ],
         "packagePatterns": [
-          "eslint-config-*",
-          "eslint-plugin-*"
+          "^eslint-config-",
+          "^eslint-plugin-"
         ]
       }
     ]
